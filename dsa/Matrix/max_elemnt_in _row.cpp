@@ -2,26 +2,26 @@
 
 #include<iostream>
 using namespace std;
-int  m = 3;		//no of rows
-int  n = 3;		//no of columns
+int  r = 3;		//no of rows
+int  c = 3;		//no of columns
 
-void display(int result[], int n)
+void display(int result[], int c)
 {
 	int i;
-	for(i = 0; i < n; i++)
+	for(i = 0; i < c; i++)
 	{
 		cout << result[i] << " "<<endl;
 	}
 }
 
-void max(int mat[3][3], int m, int n)
+void max(int mat[3][3], int r, int c)
 {
 	int i = 0;
 	int max = 0;
-	int result[m];
-	while (i < m)
+	int result[r];
+	while (i < r)
 	{
-		for ( int j = 0; j < n; j++)
+		for ( int j = 0; j < c; j++)
 		{
 			if (mat[i][j] > max)
 			{
@@ -32,7 +32,7 @@ void max(int mat[3][3], int m, int n)
 	max = 0;
 	i++;	
 	}
-	display(result, m);
+	display(result, r);
 }
 int main()
 {
@@ -42,6 +42,6 @@ int main()
 					{4,5,6},
 					{7,8,9},
 				  };
-	max(mat,m,n);
+	max(mat,r,c);
 	return 0;
 }
