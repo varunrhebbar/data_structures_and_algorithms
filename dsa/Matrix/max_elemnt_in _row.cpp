@@ -2,8 +2,8 @@
 
 #include<iostream>
 using namespace std;
-int  r = 3;		//no of rows
-int  c = 3;		//no of columns
+int  r = 3;	
+int  c = 3;	
 
 void display(int result[], int c)
 {
