@@ -24,7 +24,7 @@ void leaders(vector<int> a){
     }
 }
 int main(){
-    vector<int> a {5,3,20,15,8,3};  // op--> {20, 15, 8, 3}
-    leaders(arr);
+    vector<int> a= {5,3,20,15,8,3};  // op--> {20, 15, 8, 3}
+    leaders(a);
     return 0;
 }
