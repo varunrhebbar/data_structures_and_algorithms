@@ -1,4 +1,3 @@
-// C++ program to rotate a matrix
 
 #include <bits/stdc++.h>
 #define R 4
