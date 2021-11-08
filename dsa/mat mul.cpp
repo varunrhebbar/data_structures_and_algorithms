@@ -6,9 +6,6 @@ using namespace std;
 
 #define N 4
 
-// This function multiplies
-// mat1[][] and mat2[][], and
-// stores the result in res[][]
 void multiply(int mat1[][N],
 			int mat2[][N],
 			int res[][N])
@@ -23,11 +20,10 @@ void multiply(int mat1[][N],
 	}
 }
 
-// Driver Code
 int main()
 {
 	int i, j;
-	int res[N][N]; // To store result
+	int res[N][N];
 	int mat1[N][N] = { { 1, 1, 1, 1 },
 					{ 2, 2, 2, 2 },
 					{ 3, 3, 3, 3 },
