@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 void primefactors(int n)
 {
 	while(n%2==0)
@@ -20,7 +19,7 @@ void primefactors(int n)
 }
 int main()
 {
-	int n=20;
+	int n=8;
 	primefactors(n);
 	return 0;
 }
