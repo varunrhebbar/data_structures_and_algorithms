@@ -1,5 +1,5 @@
 #include<iostream>
-#include<bits/stdc++.h>
+#include<stdbool.h>
 using namespace std;
 
 bool isap(int arr[],int n)
