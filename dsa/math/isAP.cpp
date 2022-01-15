@@ -13,24 +13,24 @@ bool isap(int arr[],int n)
 		return false;
 	return true;
 }
-//int main()
-//{
-//	int arr[5]={1,3,5,6,9};
-//	int n = sizeof(arr) / sizeof(arr[0]);
-//	(isap(arr, n)) ? (cout << "Yes" << endl) : (cout << "No" << endl);
-// 	return 0;
-//}
 int main()
 {
-	int sizeofarray;
-	cin <<sizeofarray;
-	for (int i = 0; i < sizeofarray; ++i)
-	{
-	    cin >> a[i];
-	}	
-	for (int i = 0; i < sizeofarray; ++i)
-{
-    cin >> a[i];
+	int arr[5]={1,3,5,6,9};
+	int n = sizeof(arr) / sizeof(arr[0]);
+	(isap(arr, n)) ? (cout << "Yes" << endl) : (cout << "No" << endl);
+ 	return 0;
 }
-}
+//int main()
+//{
+//	int sizeofarray;
+//	cin  <<sizeofarray;
+//	for (int i = 0; i < sizeofarray; ++i)
+//	{
+//	    cin >> a[i];
+//	}	
+//	for (int i = 0; i < sizeofarray; ++i)
+//{
+//    cin >> a[i];
+//}
+//}
 
