@@ -33,5 +33,5 @@ int main()
 	cyclic(N);
 	return 0;
 }
-//cyclic numbers
+//cyclic numbers not permutation
 
